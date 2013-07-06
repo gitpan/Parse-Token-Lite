@@ -1,7 +1,7 @@
 package Parse::Token::Lite::Token;
 use Moo;
 
-our $VERSION = '0.110'; # VERSION
+our $VERSION = '0.120'; # VERSION
 # ABSTRACT: Token class
 
 
@@ -10,7 +10,10 @@ has data=>(is=>'rw');
 
 has rule=>(is=>'rw');
 
-
+sub as_string{
+  my ($self) = @_;
+  return $self->data;
+}
 
 
 1;
@@ -25,7 +28,7 @@ Parse::Token::Lite::Token - Token class
 
 =head1 VERSION
 
-version 0.110
+version 0.120
 
 =head1 ATTRIBUTES
 

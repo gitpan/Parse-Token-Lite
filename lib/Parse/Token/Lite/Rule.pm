@@ -1,7 +1,7 @@
 package Parse::Token::Lite::Rule;
 use Moo;
 
-our $VERSION = '0.110'; # VERSION
+our $VERSION = '0.120'; # VERSION
 # ABSTRACT: Rule class
 
 
@@ -28,7 +28,7 @@ Parse::Token::Lite::Rule - Rule class
 
 =head1 VERSION
 
-version 0.110
+version 0.120
 
 =head1 ATTRIBUTES
 

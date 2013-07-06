@@ -6,7 +6,7 @@ use Parse::Token::Lite::Token;
 use Parse::Token::Lite::Rule;
 Log::Log4perl->easy_init($ERROR);
 
-our $VERSION = '0.110'; # VERSION
+our $VERSION = '0.120'; # VERSION
 # ABSTRACT: Simply parse String into tokens with rules which are similar to Lex.
 
 
@@ -143,7 +143,7 @@ Parse::Token::Lite - Simply parse String into tokens with rules which are simila
 
 =head1 VERSION
 
-version 0.110
+version 0.120
 
 =head1 SYNOPSIS
 
@@ -306,6 +306,8 @@ Returns current state by peeking top of 'state_stack'.
 =head1 SEE ALSO
 
 See L<Parse::Token::Lite::Token> and L<Parse::Token::Lite::Rule>.
+
+And see 'samples' directory in source.
 
 =head1 AUTHOR
 
