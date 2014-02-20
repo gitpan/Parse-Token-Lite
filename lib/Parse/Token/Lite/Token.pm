@@ -1,7 +1,7 @@
 package Parse::Token::Lite::Token;
-use Moo;
+use Moose;
 
-our $VERSION = '0.120'; # VERSION
+our $VERSION = '0.200'; # VERSION
 # ABSTRACT: Token class
 
 
@@ -22,13 +22,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Parse::Token::Lite::Token - Token class
 
 =head1 VERSION
 
-version 0.120
+version 0.200
 
 =head1 ATTRIBUTES
 

@@ -1,7 +1,7 @@
 package Parse::Token::Lite::Rule;
-use Moo;
+use Moose;
 
-our $VERSION = '0.120'; # VERSION
+our $VERSION = '0.200'; # VERSION
 # ABSTRACT: Rule class
 
 
@@ -16,11 +16,18 @@ has func=>(is=>'rw');
 
 has state=>(is=>'rw');
 
+
+
+has flags=>(is=>'rw');
+
+
 1;
 
 __END__
 
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -28,7 +35,7 @@ Parse::Token::Lite::Rule - Rule class
 
 =head1 VERSION
 
-version 0.120
+version 0.200
 
 =head1 ATTRIBUTES
 

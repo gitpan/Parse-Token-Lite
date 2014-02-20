@@ -1,10 +1,34 @@
 ==================================================
-Changes from 2012-07-06 00:00:00 +0000 to present.
+Changes from 2013-02-20 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.120 at 2013-07-06 15:24:36 +0000
+version 0.200 at 2014-02-20 19:05:04 +0000
 ------------------------------------------
+
+  Change: 3db41b9cec7e0181ed823219c31a6a9d58344a69
+  Author: sng2c <sng2nara@gmail.com>
+  Date : 2014-02-21 04:01:27 +0000
+
+    Merge branch 'master' of github.com:sng2c/Parse-Token-Lite 
+
+  Change: 140cfd10fc0e3bf455f482fc822d1152f722b5fe
+  Author: sng2c <sng2nara@gmail.com>
+  Date : 2014-02-21 04:00:47 +0000
+
+    version up. add VERSION to Buider 
+
+  Change: 9d20aae19f5b975ffed296b9e606d22c64afafcc
+  Author: sng2c <sng2nara@gmail.com>
+  Date : 2014-02-21 03:55:48 +0000
+
+    add DSL 
+
+  Change: b234b803a0c929fff8f242f16a9daa5065047eed
+  Author: sng2c <sng2nara@gmail.com>
+  Date : 2013-07-17 19:22:57 +0000
+
+    added semantic_html.pl parser 
 
   Change: db426dba0eff1c8e1b5d993e73a05c053ca92972
   Author: HyunSeung Kim <sng2nara@hanmail.net>
